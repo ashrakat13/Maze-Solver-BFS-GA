@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project presents a comparative analysis between a traditional deterministic search algorithm (**Breadth-First Search - BFS**) and a probabilistic evolutionary optimization algorithm (**Genetic Algorithm - GA**) in solving a static 2D grid maze.
 
 The primary objective is to evaluate both approaches in terms of:
@@ -13,7 +13,7 @@ The primary objective is to evaluate both approaches in terms of:
 
 ---
 
-## 👥 Team Members & Roles
+##  Team Members & Roles
 * **Ashraqat Sabra Mohamed:** Implementation of Breadth-First Search (BFS).
 * **Mariam Osama Hassan:** Implementation of Maze & Path Visualization.
 * **Shahd Mohamed Abdo:** Technical Report Writing & Documentation.
@@ -25,7 +25,7 @@ The primary objective is to evaluate both approaches in terms of:
 
 ---
 
-## 🗺️ 1. Environment Design
+##  1. Environment Design
 The maze environment is represented as a **$10 \times 10$ 2D NumPy array**:
 * **`0`**: Walkable path cell.
 * **`1`**: Wall / Obstacle.
@@ -36,7 +36,7 @@ The agent navigates from Start to Goal while avoiding obstacles and out-of-bound
 
 ---
 
-## 🔍 2. Search Algorithm: Breadth-First Search (BFS)
+##  2. Search Algorithm: Breadth-First Search (BFS)
 BFS is employed as the baseline classical search method. It explores the search space level-by-level using a First-In-First-Out (FIFO) queue structure.
 
 ### Why BFS?
@@ -54,7 +54,7 @@ BFS is employed as the baseline classical search method. It explores the search 
 
 ---
 
-## 🧬 3. Optimization Algorithm: Genetic Algorithm (GA)
+##  3. Optimization Algorithm: Genetic Algorithm (GA)
 The Genetic Algorithm models path planning as an evolutionary optimization task over a population of potential solutions.
 
 ### A. Chromosome Representation
@@ -90,7 +90,7 @@ The evolution halts when any of the following triggers:
 
 ---
 
-## 📊 4. Comparative Analysis: BFS vs. GA
+## 4. Comparative Analysis: BFS vs. GA
 
 | Dimension | Breadth-First Search (BFS) | Genetic Algorithm (GA) |
 | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ The evolution halts when any of the following triggers:
 
 ---
 
-## 🎨 5. Visualization Parameters
+##  5. Visualization Parameters
 Plots are generated using **Matplotlib**:
 * **White Cells:** Walkable paths
 * **Black Cells:** Walls
@@ -112,7 +112,7 @@ Plots are generated using **Matplotlib**:
 
 ---
 
-## 💻 6. Project Structure & Setup
+##  6. Project Structure & Setup
 
 ### Repository File Structure
 ```text
